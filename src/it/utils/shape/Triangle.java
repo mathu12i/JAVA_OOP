@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Triangle implements shape {
     private double base;
     private double height;
-
+    //
     @Override
     public void inputParameters() {
         System.out.println("** Plaese input parameter of your Triangle **");
@@ -14,7 +14,7 @@ public class Triangle implements shape {
         System.out.print("Input height: ");
         this.height = new Scanner(System.in).nextDouble();
     }
-
+    //
     @Override
     public double getArea() {
         return 0.5 * base * height;

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Rectangle implements shape {
     private double width;
     private double height;
-
+    //
     @Override
     public void inputParameters() {
         System.out.println("** Plaese input parameter of your Rectangle **");
@@ -14,7 +14,7 @@ public class Rectangle implements shape {
         System.out.print("Input height: ");
         this.height = new Scanner(System.in).nextDouble();
     }
-
+    //
     @Override
     public double getArea() {
         return width * height;
@@ -29,7 +29,6 @@ public class Rectangle implements shape {
     public double getWidth() {
         return this.width;
     }
-
     public double getHeight() {
         return this.height;
     }
