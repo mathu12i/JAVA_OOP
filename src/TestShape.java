@@ -2,7 +2,6 @@ import it.utils.shape.*;
 
 public class TestShape {
     public static void main(String[] args) {
-        // เรียกไฟล์ Circle
         Circle circle = new Circle();
         circle.inputParameters();
         System.out.println("Circle radius: " + circle.getRadius());
